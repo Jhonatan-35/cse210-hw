@@ -1,9 +1,9 @@
 using System;
-// The introduce youself nae and last name
+// The introduce youself name and last name
 class Program
 {
     static void Main(string[] args)
-    {
+    { 
         Console.Write("What is your first name? ");
         string first = Console.ReadLine();
 
