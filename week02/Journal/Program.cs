@@ -7,18 +7,19 @@ class Program
         Journal journal = new Journal();
 
         //Welcome banner
-        Console.WriteLine("Welcome to Your Daily Journal!");
-    
+        Console.WriteLine("Welcome to Journal Program!");
+
+        Console.Write("Please select one of the following choices ");
         while (true) {
-            Console.WriteLine("Menu:");
-            Console.WriteLine("1. Add Entry");
+            Console.WriteLine(":");
+            Console.WriteLine("1. Write");
             Console.WriteLine("2. Display");
             Console.WriteLine("3. Load");
             Console.WriteLine("4. Save");
             Console.WriteLine("5. Quit");
 
             //Requests user selection for action to take
-            Console.Write("Please select an option (1-5) ");
+            Console.Write("What would like to do ? ");
             string choice = Console.ReadLine();
 
             //Calls class methods per user selection

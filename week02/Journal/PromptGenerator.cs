@@ -11,16 +11,8 @@ public List<string> Prompts {get; set;}
             "Write about something that happened for which you are grateful today:",
             "If you had one thing you could do over today, what would it be?",
             "What was the strongest emotion you felt today?",
-            "Write about an act of service you either witnessed or performed today:>",
-            "Write about something you learned today:",
-            "Write about a tender mercy you noticed today:",
-            "Write about a positive interaction you had with someone else today:",
-            "Write about something you noticed that reminded you of Jesus Christ today:",
-            "Write about something you learned about someone in your life today:",
-            "Write about an experience you had that allowed you to teach someone else today:"
         };
     }
-
     //Generates a random prompt from the list
     public string GenerateRandomPrompt() {
         Random random = new Random();

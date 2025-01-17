@@ -15,14 +15,13 @@ public PromptGenerator promptGenerator;
     public void AddEntry() {
     
         string prompt = promptGenerator.GenerateRandomPrompt();
-        Console.Write("Please enter the date(mm/dd/yyyy): ");
-        string dateInput = Console.ReadLine();
         Console.WriteLine($"Today's Prompt: {prompt}");
         Console.Write("> ");
         string content = Console.ReadLine();
     }
 
     //Displays data input this session
+
     public void DisplayEntries() {
         foreach (Entry entry in entries) {
             entry.DisplayEntry();
